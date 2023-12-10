@@ -29,3 +29,10 @@ while number < 10:
     # incrementing
     print(autho_name)
     number = number + 1
+
+time = 1500
+hours =6
+
+while hours < time:
+    print ("still early")
+    hours = hours + 200
