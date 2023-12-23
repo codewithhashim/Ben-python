@@ -15,7 +15,7 @@ greetings = "Hello"
 for letter in greetings:
     if letter == "l":
         continue
-    print(letter)
+    # print(letter)
 
 # combining pass, break, continue
 names = "David bloom"
@@ -26,7 +26,18 @@ for letter in names:
         continue
     elif letter == "o":
         pass
-    print(letter)
+    # print(letter)
 
 
 # String
+string_one = 'Hello first string'
+string_two = "Hello there second string"
+string_three = ''' Hello the third string
+I am multi-line string
+and I carry a different way of writing
+ 
+ 
+ 
+ 
+ '''
+print(string_three)
