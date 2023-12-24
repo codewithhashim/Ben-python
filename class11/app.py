@@ -23,5 +23,19 @@ vehicle = "bike"
 name_of_bike = "Yamaha"
 stroke = 4
 length = 100
-bike = "Hello there my {} is {} and my bike has a {} stroke engine".format(vehicle, name_of_bike, stroke)
+bike = "Hello there my {} is {} and my bike has a {} stroke engine".format(
+    vehicle, name_of_bike, stroke)
 print(bike)
+
+
+# substring()
+greetings = "Congratulations"
+subgreet = greetings[4]
+print(subgreet)
+
+
+# in (whether one string is in another string or not) - return a boolean value
+print("h" in "hello")
+
+# not in ("if it is not in that string") - return a boolean value
+print("h" not in "hello")
