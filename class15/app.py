@@ -1,6 +1,6 @@
 # error: flaw or mistake in a code that prevents the program to run /work properly.
 # syntax errors (Issues that violates the rules of a programming language syntax)
-# symantic errors: mistake or error that is related to logical structure or design.
+# symantic errors(logical errors): mistake or error that is related to logical structure or design.
 
 # I am eating an apple. - Correct grammar (correct syntax) and it make sense.
 # An apple is eating me. - Incorrect logic but correct grammar (syntax)
@@ -35,5 +35,5 @@ my_sorted_tuple = sorted(numbers)
 print(my_sorted_tuple)
 
 # min and max:
-print(min(numbers)) # output -> 1
-print(max(numbers)) # output -> 8
+print(min(numbers))  # output -> 1
+print(max(numbers))  # output -> 8
