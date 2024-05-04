@@ -2,7 +2,8 @@
 # It is a programming paradigm that focuses on creating objects.
 
 # what is an object?
-# An object is a real world entity that has property (defined by variables) and behavior (defined by methods).  A method is simply a function.
+# An object is a real world entity that has property (defined by variables) and behavior (defined by methods).  
+# A method is simply a function.
 
 
 # An object is an instance of a class.
