@@ -23,13 +23,13 @@ class Car:
         pass
     
     # method -> A method is a function that is defined within a class. A method describe the behaviour or actions that the object can perform.
-    def drive():
+    def drive(self):
         print()
     
-    def turn():
+    def turn(self):
         print()
     
-    def parking_assist():
+    def parking_assist(self):
         print()
     
 # Instantiation
