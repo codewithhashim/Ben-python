@@ -10,12 +10,12 @@ class Person:
 
 
 alex = Person("Alex", 12, "Chinese", "Mustang") 
-alex.attr()
+# alex.attr()
 
 ben = Person("Ben", 14, "Ethiopean", "Mercedez") 
-ben.attr()
+# ben.attr()
 
-jade = Person() 
+# jade = Person() 
 
 
 # def check_age(parameter):
@@ -27,3 +27,37 @@ jade = Person()
 # var = "Some kind of value"
 
 # print(f"hi there {var}")
+
+
+# Inheritance
+# When a subclass inherits properties from a superclass.
+
+# OR
+# when one class (child class) inherit some properties (attributes) from another class (parent class).
+
+class Vehicle:
+    def __init__(self, name_of_vehicle):
+        self.name_of_vehicle = name_of_vehicle
+    
+    def start(self):
+        pass
+    
+    def stop(self):
+        pass
+
+
+class Car(Vehicle):
+    def __init__(self, name_of_vehicle, brand):
+        super().__init__(name_of_vehicle)
+        self.brand = brand
+        print(f"this car is {self.name_of_vehicle} and the brand is {self.brand}")
+        
+class Bus(Vehicle):
+    def __init__(self, name_of_vehicle):
+        super().__init__(name_of_vehicle)
+        print(f"this bus is {self.name_of_vehicle}")
+
+
+bmw = Car("BMW", "BMW Brand")
+
+youtong = Bus("Youtong")
